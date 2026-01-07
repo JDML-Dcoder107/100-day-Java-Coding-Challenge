@@ -9,7 +9,7 @@ public class Day5Part1 {
         scanner.close();
 
         String reversed_string = "";
-        for(int i = word.length() - 1; i >= 0; i--){
+        for(int i = word.length() - 1; i >= 0; i--){ 
             reversed_string += word.charAt(i);
         }
         System.out.printf("The reversed string of %s is: %s", word, reversed_string);
