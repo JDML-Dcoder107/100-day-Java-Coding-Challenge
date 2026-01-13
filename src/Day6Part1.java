@@ -17,6 +17,8 @@ public class Day6Part1 {
         System.out.println("========== Palindrome Checker ==========");
         System.out.print("Enter a String or a word: ");
         String word = input.nextLine();
+        input.close();
+
         if (isPalindrome(word) == 1) {
             System.out.printf("The String %s is a Palindrome.", word);
         }
