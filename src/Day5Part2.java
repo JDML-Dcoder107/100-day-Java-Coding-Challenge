@@ -7,6 +7,7 @@ public class Day5Part2 {
         System.out.println("========== Vowel Counter ==========");
         System.out.print("Enter a word or string: ");
         String word = scanner.nextLine();
+        scanner.close();
 
         for(int i = 0; i < word.length(); i++){
             if (word.charAt(i) == 'A' || word.charAt(i) == 'a' || word.charAt(i) == 'E' ||word.charAt(i) == 'e' ||
